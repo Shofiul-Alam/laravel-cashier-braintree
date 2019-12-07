@@ -29,18 +29,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Webnets\\Cashier\\": "src/"
+            "Laravel\\Cashier\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Webnets\\Cashier\\Tests\\": "tests/"
+            "Laravel\\Cashier\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Webnets\\Cashier\\CashierServiceProvider"
+                "Laravel\\Cashier\\CashierServiceProvider"
             ]
         }
     },
